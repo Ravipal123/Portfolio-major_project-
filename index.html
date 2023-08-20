@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_webiste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="hero">
+        <nav>
+            <img src="th-removebg-preview (1).png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#works">WORK</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1>I,m <span>Ravi Kumar</span></h1>
+            <p>This is my official portfolio website
+                to shows all <br>Details and work exiprins web development,
+            </p>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/ready-to-join-your-company/"><i class="fa-brands fa-linkedin" style="color: #fca300;"></i></a>
+                <a href="https://github.com/Ravipal123"><i class="fa-brands fa-github" style="color: #fda400;"></i></a>
+            </div>       
+        </div>
+        <div class="image">
+            <img src="back.png" alt="" class="shape">
+            <img src="boy.png" alt="" class="girl">
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="assets/images/user.png" alt="">
+                </div> -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="color: rgb(0, 0, 0);">Hi, I'm Ravi Kumar , a Frontend Developer. I love to create beautiful and performant products with delightful user experiences and always ready to learn new technologies, methods , and principle as per the project requirements.  </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Build Websites using HTML, CSS , Javascript and React js</li>
+                            <li><span>Backend Development</span><br>MYSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Web Developer  at Teachnook<li>    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br> from Netaji Subhash University Of Technology (Delhi)
+                        <br> Current CGPA: 7.93</li>
+                            <li><span>Intermediate</span><br> from St.Anthonys Senior Secondary School<br>
+                            Percentage: 75.2</li>
+                            <li><span>High School</span><br> from St.Anthonys Senior Secondary School<br>
+                            CGPA: 8.4 </li>    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services section -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Frontend Developer</h2>
+                        <p>As a Frontend Developer , I am responsible for developing new user-facing features , determining the structure and design of web pages, building reusable codes, optimizing page loading times and using a variety of markup languages to create the web pages.  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- work section -->
+        <div id="works">
+    
+            <div class="container">
+                <div class="bg-image"></div>
+                <h1 class="sub-title">My Works</h1>
+                <div class="works-list">
+                    <div class="work">
+                        <img src="	https://teal-pavlova-8200c8.netlify.app/assets/images/work-1.png" alt="work-1">
+                        <div class="layer">
+                            <h3>Amazon Clone</h3>
+                            <p>Skills used : HTML5, Css3, Javascript and Bootsrap
+                                Features : Proper clone of Amazon landing page which
+                                includes search bar.</p>
+                            <a href="http://127.0.0.1:3000/index.html"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://teal-pavlova-8200c8.netlify.app/assets/images/work-2.png" alt="work-2">
+                        <div class="layer">
+                            <h3>Responsive Landing Page</h3>
+                            <p>Skills used : HTML5, Css3, Javascript and Bootsrap
+                                Features: 1-Having Nav bar.
+                                2-Using Of Animation and Tranformation properties Of Css.
+                              
+                            </p>
+                            <a href="https://github.com/Ravipal123/Animated_website"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="	https://teal-pavlova-8200c8.netlify.app/assets/images/work-3.png
+                        " alt="work-3">
+                        <div class="layer">
+                            <h3>Weather-Forecast</h3>
+                            <p>Skills used: Javascript and REST-API
+                                Features: 1-Search bar to search for the Cityand get information in your language.
+                                2-Contains weather details all over world.
+                            </p>
+                            <a href="https://github.com/Ravipal123/Weather_app"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Ravipal123" class="btn">See more</a>
+            </div>
+        </div>
+    </div>    
+        <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ravisidd1122@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 6397173845</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ready-to-join-your-company/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Ravi_Kumar_Resume(2).pdf" class="btn btn2" download>Download CV</a> 
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="copyright">
+        <p>Copyright ©️  Made by <a href="#">Ravi Kumar</a></p>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
